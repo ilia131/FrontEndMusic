@@ -1,0 +1,16 @@
+.musicplayer{
+    display: flex;
+    background-color: black;
+    height: 8rem;
+    bottom: 0;
+    z-index: 111111;
+}
+
+@media screen and (min-device-width: 320px) and 
+(max-device-width: 768px) {
+   .musicplayer{
+      position: sticky;
+      bottom: 0;
+   }
+
+}

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+.footer{
+    display: flex;
+    font-family: 'Vazir';
+    gap: 4rem;
+    justify-content: flex-end;
+    padding: 4rem;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.footer_text{
+    font-family: 'Vazir';
+    text-align: right;
+    padding: 2rem;
+    font-weight: 700;
+}

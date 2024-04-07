@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../../fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+
+
+.login{ 
+    padding: 6.7rem;
+}
+
+
+
+
+
+
+.login_box{
+    border-radius: 2rem;
+    padding: 2rem;
+    display: grid;
+    width: 30rem;
+    margin-top: 10%;
+    font-family: 'Vazir';
+}
+
+
+@media screen and (min-device-width: 320px) and 
+(max-device-width: 768px) { 
+   .login {
+    width: auto;
+    padding: 0;
+  }
+  .login_box{
+     width: 20rem;
+  }  
+}

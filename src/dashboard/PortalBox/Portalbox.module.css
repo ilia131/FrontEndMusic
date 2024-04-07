@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../../../styles/fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.text {
+    font-family: 'Vazir';
+}
+
+
+.text1 {
+    font-family: 'Vazir';
+    padding: 1rem;
+    text-align: right;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-align: right;
+    font-size: 0.9rem;
+    font-family: 'Vazir';
+    color: white;
+}

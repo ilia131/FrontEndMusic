@@ -1,0 +1,14 @@
+
+
+
+
+
+@media screen and (min-device-width: 320px) and 
+(max-device-width: 768px) { 
+   .phone {
+  display: none;
+  }
+  .login_box{
+     width: 20rem;
+  }  
+}

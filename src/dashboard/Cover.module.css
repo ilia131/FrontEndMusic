@@ -1,0 +1,62 @@
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('../../styles/fonts/variable/Vazirmatn[wght].ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.comment{
+  font-family: 'Vazir';
+}
+
+
+@keyframes moveRight {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0%); }
+  }
+  
+.imageanimation {
+    animation: moveRight 5s linear infinite;
+  }
+
+
+.imagecontainer {
+    width: 100vw;
+    overflow: hidden;
+  }
+
+@keyframes expandWidth {
+    0% { width: 100vw; }
+    100% { width: 200vw; /* عرض نهایی عکس */ }
+  }
+
+.imageRcontainer {
+    width: 100vw; 
+    overflow: hidden;
+    animation: expandWidth 36s linear forwards; 
+  }
+
+
+
+  
+.imagescroll {
+    animation: scrollRight 300s linear infinite;
+    transform: scale(2);
+  }
+  
+@keyframes scrollRight {
+    0% { transform: translateX(-1%); }
+    100% { transform: translateX(-100%); /* اسکرول به سمت راست */ }
+  }
+
+
+
+
+@media screen  and (max-device-width: 768px) { 
+    .wid{
+      transform: scaleX(1.9) ;
+      width: 100%;
+      height: auto;
+    }
+  }

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sideBar_menu{
+    padding: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family:'Vazir';
+}
+
+.sideBar_menun{
+   font-family: 'Vazir';
+   font-weight: 700;
+   text-align: center;
+   padding: 2rem;
+   color: white;
+}
+.sideBar_menu1{
+    padding: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family:'Vazir';
+}
+
+
+
+.text{
+    font-family: 'Vazir';
+}
+
+@media screen and (min-device-width: 320px) and 
+(max-device-width: 768px) { 
+    .sideBar_menu2{
+       width: auto;
+    }
+
+
+}

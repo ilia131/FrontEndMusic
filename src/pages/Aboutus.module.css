@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Aboutus{
+   font-family: 'Vazir';
+   background-color: black;
+   padding: 4rem;
+   font-size: 1.2rem;
+}
+
+.pages{
+  font-family: 'Vazir';
+}
+
+.txr{
+    font-family: 'Vazir';
+    font-weight: 500;
+}
+
+.txy{
+  font-family: 'Vazir';
+  font-weight: 800;
+}
